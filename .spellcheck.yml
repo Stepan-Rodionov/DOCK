@@ -2,5 +2,8 @@ matrix:
 - name: Markdown
   aspell:
     lang: en
+  dictionary:
+    wordlists:
+    - .spellcheck-exceptions.txt
   sources:
   - 'README.md'
