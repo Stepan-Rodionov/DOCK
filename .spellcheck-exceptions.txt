@@ -1,0 +1,9 @@
+GitHub
+markdown
+VS
+code
+Action
+yml
+utf
+aspell
+pyspelling

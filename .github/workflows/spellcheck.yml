@@ -1,4 +1,4 @@
-﻿name: Spell Check
+name: Spell Check
 
 on:
   push:
@@ -32,12 +32,3 @@ jobs:
       run: |
         pyspelling --config .spellcheck.yml
       continue-on-error: false
-
-    - name: Upload spell check results
-      if: failure()
-      uses: actions/upload-artifact@v4
-      with:
-        name: spellcheck-results
-        path: |
-          **/.pyspelling/*
-        retention-days: 7

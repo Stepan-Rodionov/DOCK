@@ -1,0 +1,6 @@
+matrix:
+- name: Markdown
+  aspell:
+    lang: en
+  sources:
+  - 'README.md'
