@@ -1,0 +1,8 @@
+﻿name: Simple Spell Check
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello! Workflow is working!"
